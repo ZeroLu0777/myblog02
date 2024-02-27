@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head tag -->
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" name="google-site-verification"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="" name="description"/>
+<meta content="" name="keyword"/>
+<link href="/img/ironman-draw.png" rel="shortcut icon"/>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
+<title>
+</title>
+<link href="https://nsclc.net/" rel="canonical"/>
+<!-- Bootstrap Core CSS -->
+<link href="https://cdn.staticfile.org/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+<!-- Custom CSS -->
+<link href="/css/beantech.min.css" rel="stylesheet"/>
+<link href="/css/donate.css" rel="stylesheet"/>
+<link href="/css/w3.css" rel="stylesheet"/>
+<!-- Pygments Highlight CSS -->
+<link href="/css/highlight.css" rel="stylesheet"/>
+<link href="/css/widget.css" rel="stylesheet"/>
+<link href="/css/rocket.css" rel="stylesheet"/>
+<link href="/css/signature.css" rel="stylesheet"/>
+<link href="/css/toc.css" rel="stylesheet"/>
+<!-- Custom Fonts -->
+<!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+<!-- Hux change font-awesome CDN to qiniu -->
+<link href="https://cdn.staticfile.org/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<!-- ga & ba script hoook -->
+<script></script>
+<meta content="Hexo 7.1.1" name="generator"/><script async="" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2969727881862428"></script></head>
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+<!-- Modified by Yu-Hsuan Yen -->
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+    }
+   .post-heading{
+    padding:20px;
+    }
+  .person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+  }
+  .person:hover {
+    border-color: #f1f1f1;
+  }
+
+</style>
+<header class="w3-indigo intro-header" id="headerid" style="position:relative;">
+<!-- Signature -->
+<div class="container">
+<div class="row">
+<canvas height="50%" id="particles-js-canvas" style="position:absolute;z-index:1;top:0px;left:0px;" width="100%"></canvas>
+<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" style="z-index:2;">
+<div class="site-heading" style="padding:40px">
+<h1>癌症補帖</h1>
+<!--<hr class="small">-->
+<span class="subheading"></span>
+</div>
+</div>
+</div>
+</div>
+</header>
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+<div class="container-fluid">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header page-scroll">
+<button class="navbar-toggle" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/">癌症補帖</a>
+</div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+<!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+<div id="huxblog_navbar">
+<div class="navbar-collapse">
+<ul class="nav navbar-nav navbar-right">
+<li>
+<a href="/">Homepage</a>
+</li>
+</ul>
+</div>
+</div>
+<!-- /.navbar-collapse -->
+</div>
+<!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+<!-- Main Content -->
+<!-- Main Content -->
+<div class="container">
+<div class="row">
+<!-- USE SIDEBAR -->
+<!-- Post Container -->
+<div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-12 post-container">
+<!-- Main Content -->
+<div class="w3-row-padding">
+<a href="/2023/12/29/肺癌/">
+<h2 class="post-title">
+            肺癌介紹
+        </h2>
+<h3 class="post-subtitle">
+</h3>
+</a>
+<div>
+<a href="/2023/12/29/肺癌/">
+<div class="post-content-preview">
+            肺癌介紹肺癌是一種惡性腫瘤，通常起源於肺部組織，並可能擴散到其他部位。肺部是呼吸系統的一部分，負責吸入氧氣並排出二氧化碳。當細胞在肺部惡性增生時，就會形成肺癌。
+肺癌症狀肺癌的症狀可能包括：
+
+持續性咳嗽或咳血
+呼吸困難
+胸痛或胸部不適
+嗓子喉嚨痛
+體重下降
+疲勞感
+
+肺癌治療肺癌的治療方式包括手術、放射線治療、化學治療和靶向治療。根據NCCN治療指南，常見的肺癌檢查包括：
+
+胸部X光.........
+        </div>
+</a>
+<p class="post-meta">
+            Posted by Cancer Knowledge on
+            2023-12-29
+        </p>
+</div>
+</div>
+<hr/>
+<div class="w3-row-padding">
+<a href="/2023/11/27/Gemita-for-I.V.-Lyophilized-Injection/">
+<h2 class="post-title">
+            Gemita-for-I.V.-Lyophilized-Injection介紹
+        </h2>
+<h3 class="post-subtitle">
+</h3>
+</a>
+<div>
+<a href="/2023/11/27/Gemita-for-I.V.-Lyophilized-Injection/">
+<div class="post-content-preview">
+            Gemita-for-I.V.-Lyophilized-Injection詳細介紹Gemita-for-I.V.-Lyophilized-Injection是一種注射用凍乾粉劑，含有Gemcitabine作為主要成分。它通常用於治療多種癌症，包括肺癌。
+產品特點：
+商品名稱： Gemita-for-I.V.-Lyophilized-Injection
+主要成分： Gemcitabine.........
+        </div>
+</a>
+<p class="post-meta">
+            Posted by Cancer Knowledge on
+            2023-11-27
+        </p>
+</div>
+</div>
+<hr/>
+<div class="w3-row-padding">
+<a href="/2023/11/24/Gemcitabine-Mylan/">
+<h2 class="post-title">
+            Gemcitabine-Mylan介紹
+        </h2>
+<h3 class="post-subtitle">
+</h3>
+</a>
+<div>
+<a href="/2023/11/24/Gemcitabine-Mylan/">
+<div class="post-content-preview">
+            Gemcitabine-Mylan介紹Gemcitabine-Mylan是Gemcitabine的一種特定品牌，由Mylan公司生產。Gemcitabine是一種化療藥物，主要用於治療多種癌症，包括肺癌。Gemcitabine-Mylan與普通Gemcitabine相比，在成分和作用上沒有顯著差異，主要區別在於生產商和品牌。
+Gemcitabine-Mylan的特點：
+Gemcitab.........
+        </div>
+</a>
+<p class="post-meta">
+            Posted by Cancer Knowledge on
+            2023-11-24
+        </p>
+</div>
+</div>
+<hr/>
+<div class="w3-row-padding">
+<a href="/2023/11/22/Xi-good-Capsules-mg/">
+<h2 class="post-title">
+            Xi-good-Capsules-mg介紹
+        </h2>
+<h3 class="post-subtitle">
+</h3>
+</a>
+<div>
+<a href="/2023/11/22/Xi-good-Capsules-mg/">
+<div class="post-content-preview">
+            Xi-good-Capsules-mg 詳細介紹Xi-good-Capsules-mg 是一種膠囊劑型的補充劑，通常用於改善健康和增強免疫力。以下是有關 Xi-good-Capsules-mg 的詳細介紹：
+主要成分
+Xi-good-Capsules-mg 的主要成分可能包括維生素、礦物質、植物提取物等，具體成分可根據產品配方而異。
+
+功效
+Xi-good-Capsules-mg 可能.........
+        </div>
+</a>
+<p class="post-meta">
+            Posted by Cancer Knowledge on
+            2023-11-22
+        </p>
+</div>
+</div>
+<hr/>
+<div class="w3-row-padding">
+<a href="/2023/11/21/Gemcitabine-Sandoz-mgml-Concentrate-for-Solution-for-Infusion/">
+<h2 class="post-title">
+            Gemcitabine-Sandoz-mgml-Concentrate-for-Solution-for-Infusion介紹
+        </h2>
+<h3 class="post-subtitle">
+</h3>
+</a>
+<div>
+<a href="/2023/11/21/Gemcitabine-Sandoz-mgml-Concentrate-for-Solution-for-Infusion/">
+<div class="post-content-preview">
+            Gemcitabine-Sandoz-mg/ml濃縮液注射用溶液介紹Gemcitabine-Sandoz-mg/ml濃縮液注射用溶液是一種含有Gemcitabine活性成分的藥物，用於靜脈注射治療多種癌症，包括肺癌。以下是詳細介紹：
+產品特點：
+商品名稱： Gemcitabine-Sandoz-mg/ml濃縮液注射用溶液
+活性成分： Gemcitabine.........
+        </div>
+</a>
+<p class="post-meta">
+            Posted by Cancer Knowledge on
+            2023-11-21
+        </p>
+</div>
+</div>
+<hr/>
+<div class="w3-row-padding">
+<a href="/2023/11/20/Taxohope-N-mgml-concentrate-for-Solution-for-infusion/">
+<h2 class="post-title">
+            Taxohope-N-mgml-concentrate-for-Solution-for-infusion介紹
+        </h2>
+<h3 class="post-subtitle">
+</h3>
+</a>
+<div>
+<a href="/2023/11/20/Taxohope-N-mgml-concentrate-for-Solution-for-infusion/">
+<div class="post-content-preview">
+            Taxohope-N-mgml注射液濃縮液介紹1. 什麼是Taxohope-N-mgml注射液濃縮液？Taxohope-N-mgml注射液濃縮液是一種用於靜脈注射的藥物，主要成分為納歇銀（Docetaxel）。它屬於一種細胞分裂抑制劑，用於治療多種癌症，包括乳腺癌、前列腺癌和肺癌等。
+2. Taxohope-N-mgml注射液濃縮液的使用方法是什麼？
+Taxohope-N-mgml注射.........
+        </div>
+</a>
+<p class="post-meta">
+            Posted by Cancer Knowledge on
+            2023-11-20
+        </p>
+</div>
+</div>
+<hr/>
+<div class="w3-row-padding">
+<a href="/2023/11/14/TEDOFURYL-CAPSULES/">
+<h2 class="post-title">
+            TEDOFURYL-CAPSULES介紹
+        </h2>
+<h3 class="post-subtitle">
+</h3>
+</a>
+<div>
+<a href="/2023/11/14/TEDOFURYL-CAPSULES/">
+<div class="post-content-preview">
+            TEDOFURYL-CAPSULES詳細介紹TEDOFURYL-CAPSULES是一種口服藥物，主要成分為TEDOFURYL。這種藥物通常用於治療多種癌症，包括肺癌、胃癌和結腸直腸癌等。
+TEDOFURYL-CAPSULES的特點
+成分：主要成分為TEDOFURYL，具有抑制癌細胞生長的作用。
+劑型：為膠囊劑型，方便口服。
+用法用量：根據醫生的處方準確使用，按照指示服用。
+適應症：主要.........
+        </div>
+</a>
+<p class="post-meta">
+            Posted by Cancer Knowledge on
+            2023-11-14
+        </p>
+</div>
+</div>
+<hr/>
+<div class="w3-row-padding">
+<a href="/2023/11/13/CELECOXIB-TBC/">
+<h2 class="post-title">
+            CELECOXIB-TBC介紹
+        </h2>
+<h3 class="post-subtitle">
+</h3>
+</a>
+<div>
+<a href="/2023/11/13/CELECOXIB-TBC/">
+<div class="post-content-preview">
+            CELECOXIB-TBC 詳細介紹CELECOXIB-TBC 是一種含有 Celecoxib 作為主要成分的藥物。Celecoxib 是一種非甾體抗炎藥，常用於治療風溼性關節炎、骨關節炎和其他疼痛炎症性疾病。
+CELECOXIB-TBC 的用途CELECOXIB-TBC 主要用於減輕疼痛和炎症，通常用於治療風溼性關節炎、骨關節炎等關節疾病。此外，Celecoxib 也可能在癌症治療中.........
+        </div>
+</a>
+<p class="post-meta">
+            Posted by Cancer Knowledge on
+            2023-11-13
+        </p>
+</div>
+</div>
+<hr/>
+<div class="w3-row-padding">
+<a href="/2023/11/05/Cisplatin/">
+<h2 class="post-title">
+            Cisplatin介紹
+        </h2>
+<h3 class="post-subtitle">
+</h3>
+</a>
+<div>
+<a href="/2023/11/05/Cisplatin/">
+<div class="post-content-preview">
+            Cisplatin介紹Cisplatin是一種化療藥物，常用於治療多種癌症，包括肺癌。它屬於一種鉑化合物，通過幹擾癌細胞的DNA複製和修復來抑制癌細胞的生長。
+如何使用Cisplatin治療肺癌？
+化療療程：Cisplatin通常與其他化療藥物一起使用，形成化療療程。醫師會根據患者的具體情況和病情嚴重程度來制定化療方案。
+給藥方式：Cisplatin通常是通過靜脈注射的方式給予患者。醫.........
+        </div>
+</a>
+<p class="post-meta">
+            Posted by Cancer Knowledge on
+            2023-11-05
+        </p>
+</div>
+</div>
+<hr/>
+<div class="w3-row-padding">
+<a href="/2023/11/02/Relecox-Capsules-Y.C./">
+<h2 class="post-title">
+            Relecox-Capsules-Y.C.介紹
+        </h2>
+<h3 class="post-subtitle">
+</h3>
+</a>
+<div>
+<a href="/2023/11/02/Relecox-Capsules-Y.C./">
+<div class="post-content-preview">
+            Relecox-Capsules-Y.C. 介紹Relecox-Capsules-Y.C. 是一種含有 Celecoxib 成分的藥物，以下是詳細介紹：
+成分
+主要成分：Celecoxib
+藥物形式：膠囊
+
+作用Relecox-Capsules-Y.C. 主要用於治療風溼性關節炎、骨關節炎和其他疼痛炎症性疾病。它通過抑制炎症相關的酶來減輕疼痛和炎症。
+用法
+按照醫生的指示來服用藥物
+通.........
+        </div>
+</a>
+<p class="post-meta">
+            Posted by Cancer Knowledge on
+            2023-11-02
+        </p>
+</div>
+</div>
+<hr/>
+<!-- Pager -->
+<ul class="pager">
+<li class="next">
+<a href="/page/2/">Older Posts →</a>
+</li>
+</ul>
+<!-- 如果开启评论功能 -->
+</div>
+<!-- Sidebar Container -->
+<div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-12 col-xs-12 sidebar-container"><section>
+<h3 class="widget-title">
+<i class="fa fa-archive"></i>
+        肺癌和藥物基本知識
+    </h3>
+<img alt="c" height="256" src="/img/006.jpg" width="256"/>
+</section>
+<!-- Short About -->
+<section class="visible-md visible-lg">
+<h5><a href="/about/">About me</a></h5>
+<div class="short-about">
+
+<p>Knowledge is power.</p>
+<!-- SNS Link -->
+<ul class="list-inline">
+</ul>
+</div>
+</section>
+<hr/>
+<h5>Recent posts
+  <div class="widget">
+<ul>
+<li>
+<a href="/2023/12/29/%E8%82%BA%E7%99%8C/">肺癌介紹</a>
+</li>
+<li>
+<a href="/2023/11/27/Gemita-for-I.V.-Lyophilized-Injection/">Gemita-for-I.V.-Lyophilized-Injection介紹</a>
+</li>
+<li>
+<a href="/2023/11/24/Gemcitabine-Mylan/">Gemcitabine-Mylan介紹</a>
+</li>
+<li>
+<a href="/2023/11/22/Xi-good-Capsules-mg/">Xi-good-Capsules-mg介紹</a>
+</li>
+<li>
+<a href="/2023/11/21/Gemcitabine-Sandoz-mgml-Concentrate-for-Solution-for-Infusion/">Gemcitabine-Sandoz-mgml-Concentrate-for-Solution-for-Infusion介紹</a>
+</li>
+</ul>
+</div>
+<hr/>
+<h5>Achives</h5>
+<div class="widget">
+<ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/12/">December 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/11/">November 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/10/">October 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/09/">September 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/08/">August 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/07/">July 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/06/">June 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/05/">May 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/04/">April 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/03/">March 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/02/">February 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/01/">January 2023</a></li></ul>
+</div>
+<hr/>
+<!-- Friends Blog -->
+<h5>Friends</h5>
+<ul class="list-inline">
+</ul>
+<hr/>
+<!-- Categories -->
+<hr/>
+</h5></div>
+</div>
+</div>
+<!-- Footer -->
+<!-- Footer -->
+<footer>
+<div class="container">
+<div class="row">
+<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<ul class="list-inline text-center">
+</ul>
+<p class="copyright text-muted">
+                    Copyright © Cancer Knowledge 2024 
+                    <br/>
+                    Powered by <a href="http://www.hexo.io" rel="noopener" target="_blank">Hexo</a>
+<span style="display: inline-block; margin: 0 5px;">
+<i class="fa fa-heart"></i>
+</span> 
+                    Theme by <a href="https://github.com/kinggozhang/hexo-theme-ace" rel="noopener" target="_blank">ACE</a>
+</p>
+</div>
+</div>
+</div>
+</footer>
+<!-- jQuery -->
+<script src="/js/jquery.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js"></script>
+<script src="/js/particles.js"></script>
+<script src="/js/particles_config.js"></script>
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- 
+     Because of the native support for backtick-style fenced code blocks 
+     right within the Markdown is landed in Github Pages, 
+     From V1.6, There is no need for Highlight.js, 
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0  
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/    
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("https://nsclc.net/index.html/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+<!--fastClick.js -->
+<script>
+    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+<!-- Google Analytics -->
+<!-- Baidu Tongji -->
+<a class="" href="#top" id="rocket"></a>
+<script async="" src="/js/totop.js?v=1.0.0" type="text/javascript"></script>
+<script async="" src="/js/toc.js?v=1.0.0" type="text/javascript"></script>
+<!-- Image to hack wechat -->
+<img height="0" src="https://nsclc.net/img/icon_wechat.png" width="0"/>
+<!-- Migrate from head to bottom, no longer block render and still work -->
+</body>
+</html>
